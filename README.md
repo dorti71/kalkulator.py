@@ -6,6 +6,7 @@ Kod żródłowy:
 # Program Kalkulator
 
 # Tutaj definiujemy funkcje
+
 def dodawanie(a, b):
     return a + b
 
@@ -18,8 +19,10 @@ def mnozenie(a, b):
 def dzielenie(a, b):
     return a / b
 
-# Tutaj tworzymy pętlę while, która pozwoli użytkownikowi wybrać działanie
+# Tutaj tworzymy pętlę while, która pozwoli użytkownikowi wybrać działanie.
+
 while True:
+
     print("Wybierz działanie:")
     print("1. Dodawanie")
     print("2. Odejmowanie")
